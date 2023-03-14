@@ -8,11 +8,11 @@
 }
 
 @media not screen and (min-width: 960px) {
-.box1 {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto; 
-}
+  .box1 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
 }
 
 .box2 {
@@ -24,184 +24,190 @@
 
 
 @media not screen and (min-width: 960px) {
-.box2 {
-  background: #007bff;
-}
+  .box2 {
+    background: #007bff;
+  }
 }
 
-.flex1{
+.flex1 {
   justify-content: center;
   display: flex;
 }
 
-.box3{
+.box3 {
   width: 300px;
   height: 300px;
   background: #007bff;
-  margin-right:150px;
+  margin-right: 150px;
 
 }
-.box4{
+
+.box4 {
   width: 300px;
   height: 300px;
   background: #22ff00;
 }
 
 @media not screen and (min-width: 960px) {
-  .box3{
+  .box3 {
     margin-right: 25px;
   }
-  .box4{
+
+  .box4 {
     margin-left: 25px;
   }
 }
 
-.box-q4{
+.box-q4 {
   margin: 0 auto;
-  width:600px;
+  width: 600px;
 }
-.box5{
+
+.box5 {
   width: 300px;
   height: 300px;
   background: #ff0000;
   float: left;
 }
 
-.box6{
+.box6 {
   width: 300px;
   height: 300px;
   background: #0008ff;
-  float:right;
+  float: right;
 }
 
 @media not screen and (min-width: 960px) {
-.box5{
-  float: none;
-}
-.box6{
-  float: none;
-}
+  .box5 {
+    float: none;
+  }
+
+  .box6 {
+    float: none;
+  }
 }
 
-.flexbox1{
-  display:flex;
+.flexbox1 {
+  display: flex;
   justify-content: center
 }
 
-.box7{
+.box7 {
   width: 300px;
   height: 300px;
   text-align: center;
-  line-height:300px;
-  background:#ff0000;
+  line-height: 300px;
+  background: #ff0000;
 }
 
-.box8{
+.box8 {
   width: 300px;
   height: 300px;
   text-align: center;
-  line-height:300px;
-  background:#0008ff;
+  line-height: 300px;
+  background: #0008ff;
 }
 
-.box9{
+.box9 {
   width: 300px;
   height: 300px;
   text-align: center;
-  line-height:300px;
+  line-height: 300px;
   background: #ff8400;
 }
 
 @media not screen and (min-width: 960px) {
-.flexbox1{
-  flex-direction: row-reverse;
-}
+  .flexbox1 {
+    flex-direction: row-reverse;
+  }
 }
 
-.flexbox2{
-  display:flex;
+.flexbox2 {
+  display: flex;
   justify-content: center
 }
 
-.box10{
+.box10 {
   width: 300px;
   height: 300px;
   text-align: center;
-  line-height:300px;
-  background:#00ff51;
+  line-height: 300px;
+  background: #00ff51;
 }
 
-.box11{
+.box11 {
   width: 300px;
   height: 300px;
   text-align: center;
-  line-height:300px;
-  background:#d4ff00;
+  line-height: 300px;
+  background: #d4ff00;
 }
 
-.box12{
+.box12 {
   width: 300px;
   height: 300px;
   text-align: center;
-  line-height:300px;
+  line-height: 300px;
   background: #ff00e1;
 }
 
 @media not screen and (min-width: 960px) {
 
-.box10{
-  order: 2;
+  .box10 {
+    order: 2;
+  }
+
+  .box11 {
+    order: 3;
+  }
+
+  .box12 {
+    order: 1;
+  }
 }
 
-.box11{
-  order: 3;
-}
-
-.box12{
-  order: 1;
-}
-}
-
-.flexbox3{
-  display:flex;
+.flexbox3 {
+  display: flex;
   justify-content: center
 }
 
-.box13{
+.box13 {
   width: 300px;
   height: 300px;
   text-align: center;
-  line-height:300px;
-  background:#ff0000;
+  line-height: 300px;
+  background: #ff0000;
 }
 
-.box14{
+.box14 {
   width: 300px;
   height: 300px;
   text-align: center;
-  line-height:300px;
-  background:#00ff51;
+  line-height: 300px;
+  background: #00ff51;
 }
 
-.box15{
+.box15 {
   width: 300px;
   height: 300px;
   text-align: center;
-  line-height:300px;
+  line-height: 300px;
   background: #0008ff;
   display: none;
 }
 
 @media not screen and (min-width: 960px) {
-  .box13{
+  .box13 {
     display: none;
     order: 3;
   }
-  .box14{
+
+  .box14 {
     display: block;
     order: 2;
   }
-  .box15{
+
+  .box15 {
     display: block;
     order: 1;
   }
